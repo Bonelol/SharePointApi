@@ -5,10 +5,8 @@ using System.Threading.Tasks;
 
 namespace SharePointApi
 {
-    public class Class1
+    public class SharePointApiException
     {
-        public Class1()
-        {
-        }
+        public string Error { get; set; }
     }
 }
